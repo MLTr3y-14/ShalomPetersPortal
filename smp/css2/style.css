@@ -1,0 +1,624 @@
+* {
+	margin:0;
+	padding:0;/*color: #666666;*/ /* COLOR CHANGE ---- UNCOMMENT */
+
+}
+h3 {
+	font-size: 13px;
+	font-weight: bold;
+	color: #990000;
+}
+h4 {
+	font-weight: bold;
+	font-size: 10px;
+	color: #990000;
+}
+a {
+	text-decoration:none;
+	color: #dd4f05;
+}
+
+img {
+	border: none;
+}
+body {
+	margin:0;
+	text-align:center;
+	background-color:#CCCCCC;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 10px;
+	color: #666;
+}
+#header {
+	BACKGROUND: url(../Images/img_header_bg.gif) #fff repeat-x left bottom
+}
+#top-menus {
+	MARGIN: auto; WIDTH: 946px; HEIGHT: 128px
+}
+#uowlogo {
+	DISPLAY: inline; FLOAT: left; MARGIN: 0px; WIDTH: 229px; HEIGHT: 57px
+}
+#uowlogo IMG {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#top-links {
+	FLOAT: right; MARGIN: 1px 0px 0px; HEIGHT: 16px
+}
+#top-links A {
+	FONT-SIZE: 0.91em
+}
+#top-links A:hover {
+	FONT-SIZE: 0.91em
+}
+#top-links A:active {
+	FONT-SIZE: 0.91em
+}
+#top-links A:visited {
+	FONT-SIZE: 0.91em
+}
+#top-links A:hover {
+	TEXT-DECORATION: underline
+}
+#top-links UL {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #ddd 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #ddd 1px solid; LIST-STYLE-TYPE: none
+}
+#top-links LI {
+	BORDER-RIGHT: #ddd 1px solid; PADDING-RIGHT: 10px; DISPLAY: inline; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#search {
+	MARGIN: 0px; HEIGHT: 41px
+}
+#search FORM {
+	MARGIN: 10px 0px 0px
+}
+INPUT.search_input {
+	BORDER-RIGHT: #ddd 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #ddd 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: #ddd 1px solid; WIDTH: 173px; COLOR: #666; PADDING-TOP: 2px; BORDER-BOTTOM: #ddd 1px solid
+}
+#containerDiv {
+	padding:5px;
+	text-align:left;
+	margin:0 auto;
+	width:975px;
+	background:#FFFFFF
+}
+#headerDiv {
+	width:960px;
+	height: 120px;
+	border-bottom:1px solid #d8d8d8;
+	margin-bottom:5px;
+}
+#headerLeft {
+	float:left;
+	padding-top: 0px;
+	width:450px;
+}
+#headerRight {
+	float:right;
+}
+
+.buttonSearch {
+
+	width: 52px;
+	height: 22px;
+	color: #FFF;
+	border: none;
+	cursor: pointer;
+	margin-top: 5px;
+	vertical-align: sub;
+	margin-left: 2px;
+	vertical-align:bottom; 
+}
+
+.inputboxSearch {
+	border: none;
+	background: url(../images/search-bdr.png) left no-repeat;
+	height: 22px;
+	width: 153px;
+	padding-left: 10px;
+        padding-top:4px;
+	margin-top:5px;
+	font-size: 12px;
+	color: #999;
+	font-style: italic;
+}
+
+.datespan {
+	font: 13px;
+	color: #666;
+}
+
+
+
+/***************************** NAVIGATION STYLES ******************************************************/
+
+#navDiv {
+	width:960px;
+	/*margin-top:5px;
+	margin-bottom:10px;*/
+        margin: 0;
+	height: 30px;
+	z-index:1000;
+	position: relative;
+}
+
+#navDiv ul li{
+	z-index:1000;
+}
+
+/**********************************************************************/
+#slideshowDiv {
+	clear: both;
+}
+
+/*This makes sure that the file path that shows in IE instead of the preloader is not visible*/
+.gk_news_image_1_main_wrapper * {
+       color: #FFFFFF !important;
+}
+
+#body {
+	height: auto;
+	width: auto;
+}
+
+/************************** PANELDIV1 ******************************************/
+#panelDivLeft {
+        margin-top: 15px;
+	width: auto; /*780*/
+	height: auto;
+	float: left;
+}
+
+#panelDivRight {
+	width: 178px;
+	height: auto;
+	float: left;
+	padding-left: 2px;
+	margin-bottom: 20px;
+        margin-top: 7px;
+}
+
+#panelDiv1 {
+	clear: both;
+	width: auto;
+	margin-top: -20px;
+	margin-bottom: 40px;
+	padding-top: 10px;
+}
+.panel {
+	float: left;
+	height: 160px;
+	margin-right: 5px;
+	width: 235px;
+}
+#firstPanel {
+	margin-left: 3px;
+}
+.paneltop {
+	height: 5px;
+	width: 235px;
+	background:url(../images/product-panel-top.png) no-repeat;
+}
+.panelmiddle {
+	width: 235px;
+	height: 167px;
+	background: url(../images/product-panel-middle.png) repeat-y;
+}
+.panelbottom {
+	height: 5px;
+	width: 235px;
+	background:url(../images/product-panel-bottom.png) no-repeat;
+}
+
+.panelmiddle img.angle {
+	position: absolute;
+	bottom: 2px;
+	right: 16px;
+}
+.panelmiddle {
+	padding-left: 13px;
+	height: 153px;
+}
+.panelmiddle h3 { /**** COMMENT THIS RULE IF YOU ENABLE TITLES IN THE MENU ***/
+	font-size: 13px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: #990000;
+	background:url(../images/little-grey-box.png) right no-repeat;
+	padding-bottom: 1px;
+	padding-top: 2px;
+	margin-right: 10px;
+	width: 213px;
+}
+
+.panelmiddle ul {
+	margin-top: -5px;
+	list-style-type: none;
+	width: 200px;
+}
+.panelmiddle ul li{
+	width: 220px; /*150px;*/
+}
+.panelmiddle ul li a {
+	text-decoration: none;
+	line-height: 20px;
+	color: #999999;
+	font-size: 11px;
+}
+.panelmiddle ul li a:hover {
+	color: #990000 !important;
+	text-decoration: underline !important;
+}
+
+
+.panelmiddle ul li.item268, .panelmiddle ul li.item269, .panelmiddle ul li.item270 {
+        padding-left: 150px;
+        padding-top: 8px;
+}
+
+/*************************************** PANELDIV2 **********************************************/
+#panelDiv2 {
+	clear: both;
+	width: auto;
+	/*margin-top: -30px;*/
+	margin-bottom: 10px;
+	padding-top: 10px;
+}
+.secondpanel {
+	float: left;
+	height: 167px;
+	margin-right: 4px;
+	width: 235px;
+}
+#firstPanel {
+	margin-left: 3px;
+}
+.secondpaneltop {
+	height: 12px;
+	width: 235px;
+	background:url(../images/second-panel-top.png) no-repeat;
+}
+.secondpanelmiddle {
+	width: 235px;
+	height: 171px; /** 165 **/
+	background: url(../images/second-panel-middle.png) repeat-y;
+	padding-left: 13px;
+}
+.secondpanelbottom {
+	height: 12px;
+	width: 235px;
+	background:url(../images/second-panel-bottom.png) no-repeat;
+}
+
+.secondpanelmiddle img.angle {
+	position: absolute;
+	bottom: 3px;
+	right: 17px;
+}
+
+.secondpanelmiddle h3 { /**** COMMENT THIS RULE IF YOU ENABLE TITLES IN THE MENU ***/
+	font-size: 13px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: #990000;
+	/*background:url(images/little-grey-box.png) right no-repeat;*/
+	padding-bottom: 1px;
+	padding-top: 2px;
+	margin-right: 10px;
+	width: 213px;
+}
+
+.secondpanelmiddle ul {
+	margin-top: -5px;
+	list-style-type: none;
+	width: 200px;
+}
+.secondpanelmiddle ul li{
+	width: 200px;
+}
+.secondpanelmiddle ul li a {
+	text-decoration: none;
+	line-height: 20px;
+	font-size: 11px;
+	color: #999999;
+}
+.secondpanelmiddle ul li a:hover {
+	color: #990000 !important;
+	text-decoration: underline !important;
+}
+
+
+#controlPanelDiv {
+	margin-bottom: 5px;
+        margin-left: 1px;
+        width: 236px;
+        height: 45px;
+        background: url(../images/cpanel.png) left no-repeat;
+}
+
+#controlPanelDiv ul.imageList{
+        padding-top: 7px;
+}
+
+#controlPanelDiv ul.imageList li{
+        display: inline;
+}
+
+#controlPanelDiv ul.imageList li.first{
+        padding-left: 25px;
+}
+
+#controlPanelDiv ul.imageList li.second{
+        padding-left: 29px;
+}
+
+#controlPanelDiv ul.imageList li.third{
+        padding-left: 35px;
+}
+
+#controlPanelDiv ul.imageList li.fourth{
+        padding-left: 53px;
+}
+
+#controlPanelDiv ul.imageList li a{
+        font-family: Arial;
+        color: #990000;
+}
+
+#controlPanelDiv ul.textList{
+        padding-top: 3px;
+}
+
+#controlPanelDiv ul.textList li{
+        display: inline;
+}
+
+#controlPanelDiv ul.textList li.first{
+        padding-left: 10px;
+        color: #990000;
+}
+
+#controlPanelDiv ul.textList li.second{
+        padding-left: 10px;
+}
+
+#controlPanelDiv ul.textList li.third{
+        padding-left: 5px;
+}
+
+#controlPanelDiv ul.textList li.fourth{
+        /*padding-left: 5px;*/ /****NOW******/
+}
+
+#controlPanelDiv ul.textList li a{
+        font-family: Arial;
+        color: #990000;
+}
+
+#iBankingDiv {
+	/*padding-left: 2px;*/
+        background: url(../images/ibanking.png) left no-repeat;
+        width: 236px;
+        height: 59px;
+        margin-left: 1.5px;
+}
+
+#iBankingDiv h1{
+	font-family: Arial;
+        font-size: 14px;
+        color: #FFF;
+        padding-top: 10px;
+        padding-left: 10px;
+}
+
+#iBankingDiv h1 a{
+        color: #FFFFFF;
+}
+
+#iBankingDiv ul{
+        padding-top: 9px;
+}
+
+#iBankingDiv ul li{
+        display: inline;
+}
+
+#iBankingDiv ul li.first{
+        padding-left: 20px;
+}
+
+#iBankingDiv ul li.second{
+        padding-left: 28px;
+}
+
+#iBankingDiv ul li.third{
+        padding-left: 44px;
+}
+
+#iBankingDiv ul li a{
+        color: #FFFFFF;
+}
+
+
+/************************************** SHAREPRICE DIV *************************************/
+
+#sharepriceDiv {
+	 width: auto;
+	 margin-top: 2px; /*4px*/
+}
+
+.shareprice {
+	height: auto;
+	width: 240px;
+}
+.sharepricetop {
+	height: 12px;
+	width: 240px;
+	background:url(../images/shareprice-panel-top.png) no-repeat;
+}
+.sharepricemiddle {
+	width: 240px;
+	height: 120px;
+	background: url(../images/shareprice-panel-middle.png) repeat-y;
+}
+.sharepricebottom {
+	height: 12px;
+	width: 240px;
+	background:url(../images/shareprice-panel-bottom.png) no-repeat;
+}
+
+.sharepricemiddle h3 {
+    display: block;
+	height: 28px;
+	width: 228px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFF;
+	padding-left: 6px;
+	padding-top: 5px;
+	margin-top: -5px;
+	background: url(../images/shareprice.png) right no-repeat;
+}
+
+.sharepricemiddle h3 a {
+    color: #FFF;
+	padding-left: 8px;
+}
+
+.sharepricemiddle div { 
+    width: 200px;
+	padding: 10px;
+}
+
+
+.sharepricemiddle div ul{ 
+    list-style: none;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+
+
+
+
+/********************************* JUMPMENUS ***********************************/
+#jumpmenuDiv {
+	 width: auto;
+	 margin-top: 2px;
+}
+
+.jumpmenutop {
+	height: 12px;
+	width: 240px;
+	background:url(../images/shareprice-panel-top.png) no-repeat;
+}
+.jumpmenumiddle {
+	width: 240px;
+	height: 80px;
+         padding-left: 10px;
+         padding-top: 7px;
+	background: url(../images/shareprice-panel-middle.png) repeat-y;
+}
+.jumpmenubottom {
+	height: 12px;
+	width: 240px;
+	background:url(../images/shareprice-panel-bottom.png) no-repeat;
+}
+.jumpmenumiddle div { 
+    width: 200px;
+    padding: 0 0 0 2px;
+}
+
+
+/********************************** FOOTER *************************************************/
+
+
+.languageSelector {
+	border:1px solid #CDCDCD;
+	color:#666666;
+	font-family:Tahoma,Geneva,sans-serif;
+	font-size:10px;
+	height:16px;
+	padding-left:5px;
+	width:120px;
+}
+
+
+/******************** MISCELLANEOUS STYLES ****************/
+
+.sitemap ul {
+	list-style-type: none;
+	list-style-image: url(../images/orangeBullet.jpg);
+}
+#forms {
+	border:#b1b1b1 solid 1px;
+}
+.form_item {
+	font-family: Tahoma, Geneva, sans-serif;
+	background:#F9F9F9;
+	color:#666666;
+}
+.form_element label {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size:10px;
+}
+.cf_text {
+	font-size: 18px;
+	color: #dd4f05;
+	margin-bottom: 10px;
+}
+.form_element select, .form_element input {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 10px;
+}
+.LV_validation_message {
+	font-weight: bold;
+	font-size:10px;
+	color:#dd4f05;
+	margin-top: 0pt;
+	margin-right: 0pt;
+	margin-bottom: 0pt;
+	margin-left: 5px;
+}
+.LV_invalid {
+	color:#dd4f05;
+}
+.contentpaneopen a {
+	text-decoration:none;
+	color: #dd4f05;
+}
+.contentpaneopen a:hover {
+	text-decoration:underline;
+	color: #dd4f05;
+}
+.gtbfinancials table tbody tr td {
+	padding-top: 5px;
+}
+.faqtoggler, .closed {
+	background: url(../images/square.png) no-repeat;
+	padding-left: 20px;
+	font-size: 11px
+}
+.open {
+	background: url(../images/dash.png) no-repeat;
+}
+.faqClear {
+	clear: both;
+}
+.answer776 {
+	padding-top: 5px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+.buttonheading a {
+	padding-right: 10px !important;
+}
+INPUT {
+	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; FONT: 12px Arial, Tahoma, Helvetica, sans-serif; VERTICAL-ALIGN: middle; BORDER-LEFT: #cccccc 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #cccccc 1px solid
+}
+TEXTAREA {
+	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; FONT: 12px Arial, Tahoma, Helvetica, sans-serif; VERTICAL-ALIGN: middle; BORDER-LEFT: #cccccc 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #cccccc 1px solid
+}
+
+SELECT {
+	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; FONT: 12px Arial, Tahoma, Helvetica, sans-serif; VERTICAL-ALIGN: middle; BORDER-LEFT: #cccccc 1px solid; PADDING-TOP: 1px; BORDER-BOTTOM: #cccccc 1px solid;
+}

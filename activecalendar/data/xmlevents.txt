@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!DOCTYPE activecalendar [
+
+<!ELEMENT activecalendar (eventcontent+, event+)>
+
+<!ELEMENT eventcontent (contentyear, contentmonth, contentday, contents, contentlink)>
+
+<!ELEMENT contentyear (#PCDATA)>
+
+<!ELEMENT contentmonth (#PCDATA)>
+
+<!ELEMENT contentday (#PCDATA)>
+
+<!ELEMENT contents (item+)>
+
+<!ELEMENT item (#PCDATA)>
+
+<!ELEMENT contentlink (#PCDATA)>
+
+<!ELEMENT event (eventyear, eventmonth, eventday, eventstyle, eventlink)>
+
+<!ELEMENT eventyear (#PCDATA)>
+
+<!ELEMENT eventmonth (#PCDATA)>
+
+<!ELEMENT eventday (#PCDATA)>
+
+<!ELEMENT eventstyle (#PCDATA)>
+
+<!ELEMENT eventlink (#PCDATA)>
+
+]>
+
+<activecalendar>
+
+		<eventcontent>
+
+		<contentyear>2009</contentyear>
+
+		<contentmonth>11</contentmonth>
+
+		<contentday>03</contentday>
+
+		<contents>
+
+		<item>School Final Hols</item>
+
+		</contents>
+
+		<contentlink>http://#</contentlink>
+
+		</eventcontent>
+
+		
+		<eventcontent>
+
+		<contentyear>2009</contentyear>
+
+		<contentmonth>11</contentmonth>
+
+		<contentday>17</contentday>
+
+		<contents>
+
+		<item>Johnsosnsss</item>
+
+		</contents>
+
+		<contentlink>http://#</contentlink>
+
+		</eventcontent>
+
+		
+		<eventcontent>
+
+		<contentyear>2009</contentyear>
+
+		<contentmonth>12</contentmonth>
+
+		<contentday>25</contentday>
+
+		<contents>
+
+		<item>CHRISTMAS</item>
+
+		</contents>
+
+		<contentlink>http://#</contentlink>
+
+		</eventcontent>
+
+		
+		<eventcontent>
+
+		<contentyear>2010</contentyear>
+
+		<contentmonth>02</contentmonth>
+
+		<contentday>02</contentday>
+
+		<contents>
+
+		<item>EVENTDAY</item>
+
+		</contents>
+
+		<contentlink>http://#</contentlink>
+
+		</eventcontent>
+
+		
+		<eventcontent>
+
+		<contentyear>2009</contentyear>
+
+		<contentmonth>12</contentmonth>
+
+		<contentday>08</contentday>
+
+		<contents>
+
+		<item>zxzzxc</item>
+
+		</contents>
+
+		<contentlink>http://#</contentlink>
+
+		</eventcontent>
+
+		
+		<eventcontent>
+
+		<contentyear>2010</contentyear>
+
+		<contentmonth>01</contentmonth>
+
+		<contentday>16</contentday>
+
+		<contents>
+
+		<item>Exam Start
+</item>
+
+		</contents>
+
+		<contentlink>http://#</contentlink>
+
+		</eventcontent>
+
+		
+		<eventcontent>
+
+		<contentyear>2010</contentyear>
+
+		<contentmonth>01</contentmonth>
+
+		<contentday>21</contentday>
+
+		<contents>
+
+		<item>ycufcdyhcfujvguyhvgvgucgy</item>
+
+		</contents>
+
+		<contentlink>http://#</contentlink>
+
+		</eventcontent>
+
+		
+		<eventcontent>
+
+		<contentyear>2010</contentyear>
+
+		<contentmonth>01</contentmonth>
+
+		<contentday>21</contentday>
+
+		<contents>
+
+		<item>Party</item>
+
+		</contents>
+
+		<contentlink>http://#</contentlink>
+
+		</eventcontent>
+
+		
+	<eventcontent>
+
+		<contentyear>0</contentyear>
+
+		<contentmonth>0</contentmonth>
+
+		<contentday>0</contentday>
+
+		<contents>
+
+			<item></item>
+
+		</contents>
+
+		<contentlink></contentlink>
+
+	</eventcontent>
+
+	<event>
+
+		<eventyear>0</eventyear>
+
+		<eventmonth>0</eventmonth>
+
+		<eventday>0</eventday>
+
+		<eventstyle></eventstyle>
+
+		<eventlink></eventlink>
+
+	</event>
+
+</activecalendar>
+
+ 

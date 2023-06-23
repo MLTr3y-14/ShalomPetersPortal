@@ -1,0 +1,99 @@
+#mainmenu {
+	BACKGROUND: url(../images/menubg.jpg)
+}
+#mainmenu DIV {
+	BACKGROUND: url(../images/menubg.jpg)
+}
+
+#mainmenu UL {
+	BACKGROUND: url(../images/menubg.jpg)
+}
+#mainmenu UL UL A SPAN {
+	BACKGROUND: url(../images/menu_arrow.gif)
+}
+#mainmenu {
+	BACKGROUND-POSITION: 0px 0px; FONT: bold 12px Verdana,arial,tahoma,Helvetica,sans-serif
+}
+#mainmenu DIV {
+	BACKGROUND-POSITION: 0px -98px; BACKGROUND-REPEAT: no-repeat
+}
+#mainmenu UL {
+	PADDING-RIGHT: 10px;
+	BACKGROUND-POSITION: 100% -132px;
+	PADDING-LEFT: 10px;
+	PADDING-BOTTOM: 0px;
+	LINE-HEIGHT: 34px;
+	PADDING-TOP: 0px;
+	BACKGROUND-REPEAT: no-repeat;
+	HEIGHT: 34px;
+	z-index: 100;
+}
+#mainmenu UL LI {
+	BORDER-RIGHT: #fff 1px solid;
+	FLOAT: left;
+	CURSOR: pointer;
+	WHITE-SPACE: nowrap;
+	POSITION: relative;
+	z-index: 100;
+}
+#mainmenu UL LI.last {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+#mainmenu UL LI A {
+	PADDING-RIGHT: 14px; PADDING-LEFT: 13px; FLOAT: left; PADDING-BOTTOM: 0px; COLOR: #444; PADDING-TOP: 0px; TEXT-DECORATION: none
+}
+#mainmenu UL UL {
+	BORDER-RIGHT: #fff 1px solid;
+	PADDING-RIGHT: 7px;
+	BORDER-TOP: #fff 0px;
+	DISPLAY: none;
+	PADDING-LEFT: 7px;
+	FONT-WEIGHT: normal;
+	BACKGROUND: #505050;
+	PADDING-BOTTOM: 7px;
+	BORDER-LEFT: #fff 1px solid;
+	PADDING-TOP: 7px;
+	BORDER-BOTTOM: #fff 1px solid;
+	POSITION: absolute;
+	HEIGHT: auto;
+	z-index: 100;
+}
+#mainmenu UL UL {
+	LEFT: -1px; WIDTH: 200px; TOP: 100%
+}
+#mainmenu UL UL UL {
+	BORDER-RIGHT: #fff 1px solid; BORDER-TOP: #fff 1px solid; LEFT: 100%; BORDER-LEFT: #fff 0px; WIDTH: 200px; BORDER-BOTTOM: #fff 1px solid; TOP: -1px
+}
+#mainmenu UL UL LI {
+	BORDER-TOP: #606060 1px solid; LINE-HEIGHT: normal; BORDER-BOTTOM: #393939 1px solid; WHITE-SPACE: normal; BORDER-RIGHT-WIDTH: 0px
+}
+#mainmenu LI LI A {
+	PADDING-RIGHT: 7px; BACKGROUND-POSITION: left bottom; DISPLAY: block; PADDING-LEFT: 7px; FLOAT: none; PADDING-BOTTOM: 5px; WIDTH: 185px; COLOR: #fff; PADDING-TOP: 5px
+}
+#mainmenu LI LI LI A {
+	PADDING-RIGHT: 7px; BACKGROUND-POSITION: left bottom; DISPLAY: block; PADDING-LEFT: 7px; FLOAT: none; PADDING-BOTTOM: 5px; WIDTH: 185px; COLOR: #fff; PADDING-TOP: 5px
+}
+#mainmenu LI:hover LI A {
+	PADDING-RIGHT: 7px; BACKGROUND-POSITION: left bottom; DISPLAY: block; PADDING-LEFT: 7px; FLOAT: none; PADDING-BOTTOM: 5px; WIDTH: 185px; COLOR: #fff; PADDING-TOP: 5px
+}
+#mainmenu LI LI:hover LI A {
+	PADDING-RIGHT: 7px; BACKGROUND-POSITION: left bottom; DISPLAY: block; PADDING-LEFT: 7px; FLOAT: none; PADDING-BOTTOM: 5px; WIDTH: 185px; COLOR: #fff; PADDING-TOP: 5px
+}
+#mainmenu LI LI A:hover {
+	BACKGROUND-POSITION: 0px -166px; COLOR: #eeca08;  BACKGROUND: url(../images/menu_arrow.gif) repeat-x 0px -34px;
+}
+#mainmenu LI LI:hover A {
+	BACKGROUND-POSITION: 0px -166px; COLOR: #eeca08;  BACKGROUND: url(../images/menu_arrow.gif) repeat-x 0px -34px;
+}
+#mainmenu LI LI:hover LI A:hover {
+	BACKGROUND-POSITION: 0px -166px; COLOR: #eeca08;  BACKGROUND: url(../images/menu_arrow.gif) repeat-x 0px -34px;
+}
+#mainmenu UL UL A SPAN {
+	BACKGROUND-POSITION: 180px -75px; DISPLAY: block; BACKGROUND-REPEAT: no-repeat
+}
+#mainmenu UL LI.about UL {
+	LEFT: -78px; WIDTH: 148px; TOP: 100%
+}
+#mainmenu UL LI.about UL LI A {
+	WIDTH: 134px
+}

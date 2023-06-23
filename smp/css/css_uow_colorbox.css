@@ -1,0 +1,138 @@
+#colorbox {
+	Z-INDEX: 9999; LEFT: 0px; OVERFLOW: hidden; POSITION: absolute; TOP: 0px
+}
+#cboxOverlay {
+	Z-INDEX: 9999; LEFT: 0px; OVERFLOW: hidden; POSITION: absolute; TOP: 0px
+}
+#cboxWrapper {
+	Z-INDEX: 9999; LEFT: 0px; OVERFLOW: hidden; POSITION: absolute; TOP: 0px
+}
+#cboxOverlay {
+	WIDTH: 100%; POSITION: fixed; HEIGHT: 100%
+}
+#cboxMiddleLeft {
+	CLEAR: left
+}
+#cboxBottomLeft {
+	CLEAR: left
+}
+#cboxContent {
+	OVERFLOW: visible; POSITION: relative
+}
+#cboxLoadedContent {
+	OVERFLOW: auto
+}
+#cboxLoadedContent IFRAME {
+	BORDER-TOP-WIDTH: 0px; DISPLAY: block; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 100%; HEIGHT: 100%; BORDER-RIGHT-WIDTH: 0px
+}
+#cboxTitle {
+	MARGIN: 0px
+}
+#cboxLoadingOverlay {
+	LEFT: 0px; WIDTH: 100%; POSITION: absolute; TOP: 0px
+}
+#cboxLoadingGraphic {
+	LEFT: 0px; WIDTH: 100%; POSITION: absolute; TOP: 0px
+}
+#cboxPrevious {
+	CURSOR: pointer
+}
+#cboxNext {
+	CURSOR: pointer
+}
+#cboxClose {
+	CURSOR: pointer
+}
+#cboxSlideshow {
+	CURSOR: pointer
+}
+#cboxOverlay {
+	BACKGROUND: #111
+}
+#colorbox {
+	
+}
+#cboxTopLeft {
+	BACKGROUND: url(/content/groups/webasset/@web/documents/siteelement/img_cbox_controls.png) no-repeat 0px 0px; WIDTH: 14px; HEIGHT: 14px
+}
+#cboxTopCenter {
+	BACKGROUND: url(/content/groups/webasset/@web/documents/siteelement/img_cbox_border.png) repeat-x left top; HEIGHT: 14px
+}
+#cboxTopRight {
+	BACKGROUND: url(/content/groups/webasset/@web/documents/siteelement/img_cbox_controls.png) no-repeat -36px 0px; WIDTH: 14px; HEIGHT: 14px
+}
+#cboxBottomLeft {
+	BACKGROUND: url(/content/groups/webasset/@web/documents/siteelement/img_cbox_controls.png) no-repeat 0px -32px; WIDTH: 14px; HEIGHT: 43px
+}
+#cboxBottomCenter {
+	BACKGROUND: url(/content/groups/webasset/@web/documents/siteelement/img_cbox_border.png) repeat-x left bottom; HEIGHT: 43px
+}
+#cboxBottomRight {
+	BACKGROUND: url(/content/groups/webasset/@web/documents/siteelement/img_cbox_controls.png) no-repeat -36px -32px; WIDTH: 14px; HEIGHT: 43px
+}
+#cboxMiddleLeft {
+	BACKGROUND: url(/content/groups/webasset/@web/documents/siteelement/img_cbox_controls.png) repeat-y -175px 0px; WIDTH: 14px
+}
+#cboxMiddleRight {
+	BACKGROUND: url(/content/groups/webasset/@web/documents/siteelement/img_cbox_controls.png) repeat-y -211px 0px; WIDTH: 14px
+}
+#cboxContent {
+	BACKGROUND: #fff
+}
+#cboxLoadedContent {
+	MARGIN-BOTTOM: 5px
+}
+#cboxLoadingOverlay {
+	BACKGROUND: url(/content/groups/webasset/@web/documents/siteelement/img_cbox_loading_bg.png) no-repeat center center
+}
+#cboxLoadingGraphic {
+	BACKGROUND: url(/content/groups/webasset/@web/documents/siteelement/img_cbox_loading.gif) no-repeat center center
+}
+#cboxTitle {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FONT-WEIGHT: bold; BACKGROUND: #fff; LEFT: 0px; PADDING-BOTTOM: 3px; OVERFLOW: auto; WIDTH: 100%; COLOR: #7c7c7c; BOTTOM: 0px; LINE-HEIGHT: 1.33em; PADDING-TOP: 3px; POSITION: absolute; TEXT-ALIGN: center
+}
+#cboxCurrent {
+	FONT-WEIGHT: bold; LEFT: 58px; COLOR: #7c7c7c; BOTTOM: -25px; POSITION: absolute
+}
+#cboxPrevious {
+	BACKGROUND: url(/content/groups/webasset/@web/documents/siteelement/img_cbox_controls.png) no-repeat 0px 0px; WIDTH: 23px; BOTTOM: -29px; TEXT-INDENT: -9999px; POSITION: absolute; HEIGHT: 23px
+}
+#cboxNext {
+	BACKGROUND: url(/content/groups/webasset/@web/documents/siteelement/img_cbox_controls.png) no-repeat 0px 0px; WIDTH: 23px; BOTTOM: -29px; TEXT-INDENT: -9999px; POSITION: absolute; HEIGHT: 23px
+}
+#cboxClose {
+	BACKGROUND: url(/content/groups/webasset/@web/documents/siteelement/img_cbox_controls.png) no-repeat 0px 0px; WIDTH: 23px; BOTTOM: -29px; TEXT-INDENT: -9999px; POSITION: absolute; HEIGHT: 23px
+}
+#cboxSlideshow {
+	BACKGROUND: url(/content/groups/webasset/@web/documents/siteelement/img_cbox_controls.png) no-repeat 0px 0px; WIDTH: 23px; BOTTOM: -29px; TEXT-INDENT: -9999px; POSITION: absolute; HEIGHT: 23px
+}
+#cboxPrevious {
+	BACKGROUND-POSITION: -51px -25px; LEFT: 0px
+}
+.hover#cboxPrevious {
+	BACKGROUND-POSITION: -51px 0px
+}
+#cboxNext {
+	BACKGROUND-POSITION: -75px -25px; LEFT: 27px
+}
+.hover#cboxNext {
+	BACKGROUND-POSITION: -75px 0px
+}
+#cboxClose {
+	BACKGROUND-POSITION: -100px -25px; RIGHT: 0px
+}
+.hover#cboxClose {
+	BACKGROUND-POSITION: -100px 0px
+}
+.cboxSlideshow_on #cboxSlideshow {
+	BACKGROUND-POSITION: -125px 0px; RIGHT: 27px
+}
+.cboxSlideshow_on .hover#cboxSlideshow {
+	BACKGROUND-POSITION: -150px 0px
+}
+.cboxSlideshow_off #cboxSlideshow {
+	BACKGROUND-POSITION: -150px -25px; RIGHT: 27px
+}
+.cboxSlideshow_off .hover#cboxSlideshow {
+	BACKGROUND-POSITION: -125px 0px
+}

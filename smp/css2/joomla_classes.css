@@ -1,0 +1,48 @@
+table {
+	font-size: 10px;
+}
+table.contentpane {
+	margin:0;
+	border-collapse:collapse;
+	border-spacing:0px;
+	margin:0px;
+	padding:0px;
+	text-align:justify;
+	background-color:#fff;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	color: #999999;
+}
+table.contentpaneopen, table.contentpane, table.blog {
+	width:100%;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+}
+table.contentpaneopen {
+	margin:0;
+	border-collapse:collapse;
+	border-spacing:0px;
+	margin:0px;
+	padding:0px;
+	padding-top: 20px;
+	text-align: justify;
+	background-color:#fff;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	color: #999999;
+	border: none;
+}
+
+table.contentpaneopen td.buttonheading {
+	padding-right: 5px !important; /*** FORMERLY 1px ***/
+	padding-bottom: 40px;
+	padding-top: 20px;
+	vertical-align: bottom;
+}
+.contentheading {
+	font-size: 18px;
+	color: #DD4F05;
+	margin-bottom: 10px;
+        vertical-align: top;
+        padding-top: 15px; /**** CORPAFF CHANGE ****/
+}

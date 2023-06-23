@@ -1,0 +1,667 @@
+@charset "utf-8";
+/* CSS Document */
+
+.404 {
+	margin-top: 20px;
+	padding: 20px;
+	border: 1px solid #DD4F05;
+	font-size: 16px;
+	font-style: italic;
+}
+
+#form-login fieldset {
+    border: 1px solid #F3F3F3;
+    width: 400px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+
+#form-login .button {
+    background-color:#666666;
+    border:1px solid #DD4F05;
+    color:#FFFFFF !important;
+    font-family:Tahoma,Geneva,sans-serif;
+    font-size:11px !important;
+    height:15px;
+    margin-top:20px;
+    padding-bottom:15px;
+    width:60px;
+}
+
+#form-login div .button {
+    float: left;
+}
+
+#form-login ul {
+	display: none;
+    list-style: none;
+}
+
+#form-login ul li {
+    float: left;
+    padding-right: 10px;
+}
+
+.moduletableSearch {
+	/*padding-top: 13px;*/ /*REMOVES THE EXCESS PADDING ABOVE THE SEARCH BOX IN THE NEW DESIGN */
+}
+
+#body {
+	clear:both;
+}
+
+#cpanelStrip {
+	height: 40px;
+	width: 960px;
+}
+
+#cpanelStripRight {
+        display:none;
+}
+
+#cpanelStripLeft {
+	/*float: left;
+	height: 30px;
+	width: 5px;
+	background: url(../images/controlpanel-inner-middle.png)  left no-repeat;*/
+        display: none;
+}
+
+#cpanelStripMiddle {
+	float: left;
+	height: 37px;
+	width: 958px;
+        background-color: #F3F3F3;
+	/*background: url(../images/cpanel_inner.png) repeat-x;*/
+        /*border-left: 1px #cccccc solid;*/
+        /*border-right: 1px #666 solid;*/
+}
+
+#breadcrumbsDiv {
+	clear: left;
+	float: left;
+	display: inline;
+	width: 850px; /*726px*/
+	height: 30px;
+}
+
+#breadcrumbsDiv {
+	clear:both;
+	margin-left: -1px;
+        border: none;
+	font-size:12px;
+	color:#666;
+	height:30px;
+	padding: 0px; /*** NEW ***/
+	margin-top: 2px;
+        padding-top: 5px;
+}
+#breadcrumbsDiv ul {
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	padding-top:4px;
+	padding-left: 10px;
+}
+#breadcrumbsDiv ul li {
+	float:left;
+	padding-left:5px;
+	padding-right:5px;
+	color: #999999!important;
+}
+#breadcrumbsDiv ul li.firstCrumb {
+        font-weight: bold !important;
+        font-family: Arial !important;
+}
+#breadcrumbsDiv ul li.lastCrumb {
+        color: #DD4F05 !important;
+        font-weight: bold !important;
+        font-family: Arial !important;
+}
+#breadcrumbsDiv ul li.sep {
+	padding:0px !important;
+}
+#breadcrumbsDiv a.pathway {
+        color: #999999!important;
+	vertical-align:top;
+	font-weight:normal;
+}
+
+#innerCPanel {
+	/*clear: left;*/
+    display: inline;
+    width: 233px;
+	height: 40px;
+}
+
+#innerCPanel {
+	margin-bottom: 5px;
+        margin-left: 1px;
+        width: 236px;
+        height: 45px;
+        background: url(../images/cpanel.png) left no-repeat;
+}
+
+#innerCPanel ul.imageList{
+        margin-top: -7px;
+}
+
+#innerCPanel ul.imageList li{
+        display: inline;
+}
+
+#innerCPanel ul.imageList li.first{
+        padding-left: 25px;
+}
+
+#innerCPanel ul.imageList li.second{
+        padding-left: 29px;
+}
+
+#innerCPanel ul.imageList li.third{
+        padding-left: 35px;
+}
+
+#innerCPanel ul.imageList li.fourth{
+        padding-left: 53px;
+}
+
+#innerCPanel ul.imageList li a{
+        font-family: Arial;
+        color: #DD4F05;
+}
+
+#innerCPanel ul.textList{
+        padding-top: 0px;
+}
+
+#innerCPanel ul.textList li{
+        display: inline;
+}
+
+#innerCPanel ul.textList li.first{
+        padding-left: 10px;
+        color: #DD4F05;
+}
+
+#innerCPanel ul.textList li.second{
+        padding-left: 10px;
+}
+
+#innerCPanel ul.textList li.third{
+        padding-left: 5px;
+}
+
+#innerCPanel ul.textList li.fourth{
+        padding-left: 5px;
+}
+
+#innerCPanel ul.textList li a{
+        font-family: Arial;
+        color: #DD4F05;
+}
+
+#cpanelStripRight {
+	float: left;
+	height: 30px;
+	width: 5px;
+	background: url(../images/controlpanel-inner-middle.png)  left no-repeat;
+	margin-bottom: 7px;
+        display: none;
+}
+
+#leftColumn {
+	float: left;
+	width: 197px;
+	height: auto;
+}
+
+#relatedPages {
+	width: 197px;
+	height: auto;
+	margin-bottom: 5px;
+}
+
+#relatedPagesTop {
+	width: 197px;
+	height: 7px;
+	background: url(../Images/relatedpages-top.jpg) left no-repeat;
+}
+
+#relatedPagesMiddle {
+	width: 197px;
+	height: auto;
+	background: url(../Images/relatedpages-middle.jpg)  repeat-y;
+	padding: 0 5px;
+}
+
+#relatedPagesBottom {
+	width: 197px;
+	height: 7px;
+	background: url(../Images/relatedpages-bottom.jpg) left no-repeat;
+}
+
+#relatedPagesMiddle h3 {
+	font-size: 10px;
+	font-weight: bold;
+	height: 22px;
+	width: 177px;
+	padding-top: 5px;
+	color: #FFFFFF;
+	text-align: left;
+	padding-left: 10px;
+	text-transform: uppercase;
+	background: url(../images/relatedpages-bg.jpg) repeat-x;
+}
+
+#relatedPagesMiddle .moduletable ul {
+	list-style-type: none;
+	list-style-image: url(../images/menu_arr.png); /*list-style-image: url(../images/relatedPagesArrowWhite.png);*/
+}
+
+#relatedPagesMiddle .moduletable ul li {
+	margin-left: 23px;
+}
+
+#relatedPagesMiddle .moduletable ul li a {
+	text-decoration: none;
+	line-height: 17px;
+	font-size: 11px;
+	color: #999999;
+}
+
+/********************************* INTERNET BANKING  ***************************/
+
+#iBankingInner {
+	/*padding-left: 2px;*/
+        background: url(../images/ibankingInner.png) left no-repeat;
+        width: 197px;
+        height: 55px;
+        margin-left: 1.5px;
+}
+
+#iBankingInner h1{
+	font-family: Arial;
+        font-size: 14px;
+        color: #FFF;
+        padding-top: 10px;
+        padding-left: 10px;
+}
+
+#iBankingInner h1 a{
+        color: #FFFFFF;
+}
+
+#iBankingInner ul{
+        padding-top: 6.5px;
+}
+
+#iBankingInner ul li{
+        display: inline;
+}
+
+#iBankingInner ul li.first{
+        padding-left: 13px;
+}
+
+#iBankingInner ul li.second{
+        padding-left: 16px;
+}
+
+#iBankingInner ul li.third{
+        padding-left: 34px;
+}
+
+#iBankingInner ul li a{
+        color: #FFFFFF;
+}
+
+/********************************* JUMPMENUS ***********************************/
+#jumpmenuInnerDiv {
+	 width: auto;
+	 margin-top: 2px;
+}
+
+.jumpmenuInnerTop {
+	height: 12px;
+	width: 197px;
+	background:url(../images/shareprice-panel-top-inner.png) no-repeat;
+}
+.jumpmenuInnerMiddle {
+	width: 197px;
+	height: 80px;
+    padding-left: 9px;
+	padding-top: 3px;
+	background: url(../images/shareprice-panel-middle-inner.png) repeat-y;
+}
+.jumpmenuInnerBottom {
+	height: 12px;
+	width: 197px;
+	background:url(../images/shareprice-panel-bottom-inner.png) no-repeat;
+}
+.jumpmenuInnerMiddle div { 
+    width: 172px;
+	padding: 0 0 0 1px;
+}
+
+.inputboxSelect { 
+   border: 1px solid rgb(205, 205, 205);
+   width: 176px !important;
+   height: 18px;
+   padding-left: 5px;
+   margin-bottom: 7px;
+   font-family: Tahoma,Geneva,sans-serif;
+   font-size: 10px;
+   color: #666;
+}
+
+
+/********************************** LOWER BANNER *****************************/
+
+#lowerBanner {
+	width: 197px;
+	height: auto;
+}
+
+#lowerBannerTop {
+	width: 197px;
+	height: 7px;
+	background: url(../images/relatedpages-top.jpg) left no-repeat;
+}
+
+#lowerBannerMiddle {
+	width: 197px;
+	height: 260px;
+	background: url(../images/relatedpages-middle.jpg)  repeat-y;
+	padding: 0 6px;
+}
+
+#lowerBannerBottom {
+	width: 197px;
+	height: 7px;
+	background: url(../images/relatedpages-bottom.jpg) left no-repeat;
+}
+
+
+
+
+/******************** RIGHT COLUMN *****************/
+
+
+#rightColumn {
+	float: left;
+	width: 750px;
+	margin-left: 13px;
+}
+#bannerDiv {
+	width: 750px;
+	border: 1px solid #EBEBEB;
+	margin-top: 4px;
+	height: 165px;
+	height: auto;
+}
+#contentDiv {
+	padding-top: 10px;
+}
+.contentdescription table tr {
+	color:#999;
+}
+#categoryMenu {
+	clear: both;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	width: 960px;
+}
+#categoryMenu div.moduletable {
+	width: 735px;
+	margin-left: 210px;
+	border-bottom: 1px solid #F3F3F3;
+	border-left: 1px solid #F3F3F3;
+	border-right: 1px solid #F3F3F3;
+	height: 100px;
+	padding-top: 13px;
+	padding-left: 13px;
+	background: url(../images/innerPageCatMenu.jpg) repeat-x;
+}
+#categoryMenu div.moduletable h3 {
+	font-size: 11px;
+	margin-bottom: 10px;
+	color: #DD4F05;
+	width: 730px;
+	background: url(../images/mid_tab_smbox.jpg) right no-repeat;
+	margin-right: 10px;
+}
+#categoryMenu div.moduletable ul {
+	list-style-type: none;
+}
+#categoryMenu div.moduletable ul li {
+	float: left;
+}
+#categoryMenu div.moduletable ul li a {
+	/*background: url(images/cat-menu-bar.png) left no-repeat;*/
+	border-right: 1px solid #333;
+	padding: 0 10px;
+	text-decoration: none;
+	line-height: 15px;
+	font-size: 11px;
+	color: #999999;
+}
+/*table.seyrettoolbar {
+	display: none;
+}*/
+
+#omerta, #omerta2 {
+	display: none;
+}
+div#videobottommid #bookmarks {
+	display: none;
+}
+.categoryBox div {
+	float: left;
+	margin-right:20px;
+	/*width: 150px; DAWG FOR DYNAMIC MENUS*/
+        width: 500px;
+	clear:both;
+	margin-top:30px;
+}
+.categoryBox div img {  /* DAWG FOR DYNAMIC MENUS */
+        float: left;
+}
+.categoryBox div table{ /* DAWG FOR DYNAMIC MENUS */
+        float: left;
+        margin-top: -50px;
+        padding-left: 60px;
+}
+#sideMenu {
+	width: 500px;
+	float:left;
+}
+.categoryBox div h3 {
+	font-size: 13px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: #DD4F05;
+	margin-right: 10px;
+}
+.categoryBox ul {
+	padding-top: 55px;
+	/*list-style-image: */
+
+	float:left;
+	list-style:none;
+}
+.categoryBox ul li {
+	padding-left:15px;
+	background-image: url(../images/orangeBullet.jpg) !important;
+	background-position:left;
+	background-repeat:no-repeat;
+}
+.categoryBox ul li a {
+	text-decoration: none;
+	line-height: 15px;
+	font-size: 11px;
+	color: #999999 !important;
+}
+.categoryBox ul li a:hover {
+	color: #DD4F05 !important;
+	text-decoration: underline;
+}
+.categoryBox2 {
+	float: left;
+	margin-right:0px;
+	width:500px;
+	margin-top:3px;
+	height: auto;
+	border: 1px solid #B1B1B1;
+	background: #F9F9F9 url(../images/innerPageLittleWhiteBox.png) 95% 15% no-repeat;
+	padding:14px;
+}
+.categoryBox2 div h3 {
+	font-size: 10px;
+	font-weight: bold;
+	margin-bottom: 3px;
+	color: #DD4F05;
+	margin-right:3px;
+}
+.categoryBox2 ul {
+	padding-top: 2px;
+	padding-left:0px;
+	float: left;
+	list-style:none;
+	margin-left:0px;
+}
+.categoryBox2 ul li {
+	padding-top:5px;
+	background-image:url(../images/orangeBullet.jpg) !important;
+	background-repeat:no-repeat;
+	background-position:left;
+	padding-left:15px;
+}
+.categoryBox2 ul li a {
+	font-size:10px;
+	color:#666 !important;
+}
+.categoryBox2 ul li a:hover {
+	text-decoration: underline;
+	color: #DD4F05 !important;
+}
+.categoryBox2Image {
+	float:right;
+	margin-right:10px;
+	width:140px;
+	margin-top:30px;
+	height: auto;
+	border: 1px solid #F1F1F1;
+	background: #F2F2F2;
+	padding:14px;
+}
+#CategoryLowerHeader div {
+	margin-top:70px;
+}
+#CategoryLowerHeader h3 {
+	color:#DD4F05;
+	padding-top:70px;
+	height:100px;
+}
+.componentheading {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	color: #DD4F05;
+	font-weight: bold;
+}
+a.readon_class {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	color: #DD4F05;
+	margin-bottom: 5px;
+	text-decoration: none;
+	margin-right: 5px;
+	background: url(../images/right-arrow.gif);
+}
+td.gk_news_show_center {
+	background-color: #F9F9F9;
+	border: 1px solid #B1B1B1;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 10px;
+}
+.fabrikForm {
+	padding: 10px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	color: #999999;
+	background-color: #F9F9F9;
+	margin-bottom: 10px;
+}
+.limit {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 10px;
+	font-color: #999;
+}
+.limit .inputbox {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	color: #999;
+	border: 1px solid #999999;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+span.pagenav, a.pagenav {
+	background-color: #F6F6F6;
+	border: 1px solid #999;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+span.pagenav {
+	background-color: #F5592D;
+	color: #FFFFFF;
+}
+a.pagenav {
+	text-decoration: none;
+}
+a.pagenav:link {
+	background-color: #F6F6F6;
+}
+a.pagenav:visited {
+	background-color: #F6F6F6;
+}
+a.pagenav:hover {
+	background-color: #F5592D;
+	color: #FFFFFF;
+}
+a.pagenav:active {
+	background-color: #F6F6F6;
+	color: #FFFFFF;
+}
+/*********************** STOCK PRICES *********************************/
+
+ .gtbstock {
+	border: 1px solid #B1B1B1;
+	background-color: #F9F9F9;
+}
+.gtbstock .clear {
+	clear: both;
+}
+.gtbstock div ul {
+	list-style-type: none;
+}
+.gtbstock div ul li {
+	float:left;
+	width: 150px;
+	border-left: 1px solid #B1B1B1;
+	text-align: center;
+}
+.gtbstock div ul li.first {
+	border-left: none;
+}
+table.normal td {
+	padding-left: 10px;
+}
+
+
+/************************** Line Spacing *********************************/
+
+.systemtdtext {
+	 line-height: 160%;
+}

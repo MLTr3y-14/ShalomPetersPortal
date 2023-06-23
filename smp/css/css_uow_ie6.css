@@ -1,0 +1,102 @@
+#banner_area {
+	MARGIN: 20px 15px 0px
+}
+#tab_controls {
+	MARGIN: 0px 0px -1px
+}
+#content-bg {
+	BACKGROUND: url(http://www.uow.edu.au/content/groups/webasset/@web/documents/siteelement/img_bg_ie6_content.jpg) no-repeat; MARGIN: auto; OVERFLOW: auto; WIDTH: 960px; PADDING-TOP: 7px
+}
+#leftcol {
+	MARGIN-LEFT: 5px
+}
+#footer UL {
+	MARGIN-TOP: 10px
+}
+#footer P {
+	MARGIN: 10px auto 10px 10px
+}
+#col-lefttop {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 12px 0px; WIDTH: 100%; PADDING-TOP: 0px; HEIGHT: 100%
+}
+#col-leftbtm {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 12px 0px; WIDTH: 100%; PADDING-TOP: 0px; HEIGHT: 100%
+}
+#col-righttop {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 12px 0px; WIDTH: 100%; PADDING-TOP: 0px; HEIGHT: 100%
+}
+#col-rightbtm {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 12px 0px; WIDTH: 100%; PADDING-TOP: 0px; HEIGHT: 100%
+}
+#col-leftbtm {
+	MARGIN: 0px
+}
+#col-rightbtm {
+	MARGIN: 0px
+}
+#col-leftbtm {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+#col-lefttop UL {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#col-righttop UL {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#col-righttop OL {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#col-lefttop UL {
+	PADDING-LEFT: 20px; MARGIN: 0px 0px 10px
+}
+#col-lefttop .navLinks LI {
+	MARGIN: 3px 0px
+}
+UNKNOWN {
+	PADDING-RIGHT: 3px; BORDER-TOP: #ccc 1px solid; DISPLAY: block; PADDING-LEFT: 3px; FONT-WEIGHT: bold; FONT-SIZE: 1em; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 10px; TEXT-TRANSFORM: uppercase; PADDING-TOP: 5px; TEXT-DECORATION: none
+}
+#col-lefttop H4 {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 5px; MARGIN: 0px; PADDING-TOP: 5px
+}
+UNKNOWN {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-WEIGHT: bold; FONT-SIZE: 1em; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#col-righttop .promoContent UL {
+	MARGIN: 0px 0px 10px
+}
+#col-righttop .promoContent OL {
+	MARGIN: 0px 0px 10px
+}
+#col-righttop .promoContent UL LI {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; BACKGROUND: url(/content/groups/webasset/@web/documents/siteelement/li_point_content.gif) no-repeat 0px 9px; PADDING-BOTTOM: 0px; PADDING-TOP: 5px; LIST-STYLE-TYPE: none
+}
+#home_latest_news H1 {
+	PADDING-BOTTOM: 8px
+}
+#home_about H1 {
+	PADDING-BOTTOM: 8px
+}
+#home_take_action H1 {
+	PADDING-BOTTOM: 8px
+}
+#fullwContent {
+	MARGIN: 19px auto auto; WIDTH: 930px
+}
+#maincontent H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; MARGIN: 5px 0px; PADDING-TOP: 5px
+}
+#maincontent H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; MARGIN: 5px 0px; PADDING-TOP: 5px
+}
+#maincontent P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; MARGIN: 5px 0px; PADDING-TOP: 5px
+}
+#maincontent H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 3px; MARGIN: 3px 0px; PADDING-TOP: 3px
+}
+#maincontent H4 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 3px; MARGIN: 3px 0px; PADDING-TOP: 3px
+}
+#maincontent H5 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 3px; MARGIN: 3px 0px; PADDING-TOP: 3px
+}

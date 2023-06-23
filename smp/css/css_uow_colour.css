@@ -1,0 +1,152 @@
+BODY {
+	margin:0;
+	margin-top:0px;
+	font-family:"Trebuchet MS", Arial, Verdana;
+	font-size:0.82em;
+	color:#555555;
+	background-color:#cccccc;
+	text-align:left;
+	background: url(../images/bgs.jpg) repeat-x #CCC;
+	text-decoration:none;
+}
+#header {
+	BACKGROUND: url(../Images/img_header_bg.gif) #fff repeat-x left bottom
+}
+#top-links {
+	COLOR: #333
+}
+#top-links A {
+	COLOR: #333
+}
+#top-links A:hover {
+	COLOR: #333
+}
+#top-links A:active {
+	COLOR: #333
+}
+#top-links A:visited {
+	COLOR: #333
+}
+#breadcrumb {
+	COLOR: #ccc
+}
+#breadcrumb A {
+	COLOR: #fff
+}
+#breadcrumb A:active {
+	COLOR: #fff
+}
+#breadcrumb A:visited {
+	COLOR: #fff
+}
+#maincontent H1 {
+	COLOR: #9a1515
+}
+#maincontent H3 {
+	COLOR: #9a1515
+}
+#fullwContent H1 {
+	COLOR: #9a1515
+}
+#fullwContent H3 {
+	COLOR: #9a1515
+}
+#maincontent H2 {
+	COLOR: #666666
+}
+#maincontent H4 {
+	COLOR: #666666
+}
+#fullwContent H2 {
+	COLOR: #666666
+}
+#fullwContent H4 {
+	COLOR: #666666
+}
+#maincontent H5 {
+	COLOR: #af0000
+}
+#maincontent H6 {
+	COLOR: #af0000
+}
+#fullwContent H5 {
+	COLOR: #af0000
+}
+#fullwContent H6 {
+	COLOR: #af0000
+}
+HR {
+	BORDER-TOP: #af0000 1px solid
+}
+#fullwContent TABLE TR TH {
+	BORDER-RIGHT: #dddddd 1px solid; BORDER-TOP: #dddddd 1px solid; BACKGROUND: #9a1515; COLOR: #fff
+}
+#maincontent TABLE TR TH {
+	BORDER-RIGHT: #dddddd 1px solid; BORDER-TOP: #dddddd 1px solid; BACKGROUND: #9a1515; COLOR: #fff
+}
+#fullwContent TABLE TR TD {
+	BORDER-RIGHT: #dddddd 1px solid; BORDER-TOP: #dddddd 1px solid; COLOR: #333
+}
+#maincontent TABLE TR TD {
+	BORDER-RIGHT: #dddddd 1px solid; BORDER-TOP: #dddddd 1px solid; COLOR: #333
+}
+.tableList TH {
+	BORDER-RIGHT: #dddddd 1px solid; BORDER-TOP: #dddddd 1px solid; BACKGROUND: #9a1515; COLOR: #fff
+}
+.tableList TD {
+	BORDER-TOP: #dddddd 1px solid; COLOR: #333
+}
+UNKNOWN {
+	COLOR: #9a1515
+}
+#col-lefttop LI A:hover {
+	COLOR: #333
+}
+#col-righttop LI A:hover {
+	COLOR: #333
+}
+#col-lefttop H4 {
+	COLOR: #000
+}
+#col-lefttop H4:hover {
+	COLOR: #9a1515
+}
+#quick-links LI {
+	COLOR: #666
+}
+#quick-links LI:hover {
+	COLOR: #9a1515
+}
+#quick-links LI A {
+	COLOR: #9a1515
+}
+#quick-links LI A:hover {
+	COLOR: #333
+}
+UNKNOWN {
+	COLOR: #666
+}
+#footer {
+	BACKGROUND: url(/content/groups/webasset/@web/documents/siteelement/img_footer_bg_grey.gif) repeat-x
+}
+#footer DIV.footer {
+	BORDER-BOTTOM: #999 1px solid
+}
+#footer UL {
+	COLOR: #444
+}
+#footer P {
+	COLOR: #444
+}
+#footer A {
+	COLOR: #666
+}
+#footer A:hover {
+	COLOR: #666
+}
+#footer A:active {
+	COLOR: #666
+}
+#footer A:visited {
+	COLOR: #666
+}
